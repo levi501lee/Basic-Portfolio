@@ -17,7 +17,7 @@ body{
 }
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color:#4aaaa5;
+    text-decoration: none;
 }
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -31,7 +31,7 @@ header {
     border: 0px 0px 2px 0px;
     border-style: solid;
     margin-bottom: 20px;
-    padding-top: 30px;
+    padding-top: 50px;
     text-decoration: none;
 
 }
@@ -77,11 +77,13 @@ footer {
 }
 
 .title {
-    color: #cccccc;
-    text-decoration: none;
-    float: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color:#4aaaa5;
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 8px;
 }
 .headercontents {
     width: 960px;
@@ -94,5 +96,8 @@ footer {
     margin:auto;
 }
 .navbutton {
+    border-right: 1px solid #dddddd;}
 
-}
+.entire-thing {
+    width: 650px;
+  }
