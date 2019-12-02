@@ -9,7 +9,7 @@ body{
     border-color: #dddddd;
     line-height: 1.5;
     margin: 0;
-    padding: 10 px;
+    padding: 0 px;
   background-image: url('../images/vector-grey-gradient-abstract-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,6 +22,7 @@ h1 {
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color:#4aaaa5;
+    border-bottom: 2px solid #dddddd;
 
 }
 
@@ -30,16 +31,20 @@ header {
     border-color: #cccccc;
     border: 0px 0px 2px 0px;
     border-style: solid;
-    margin-bottom: 20px;
-    padding-top: 50px;
+    margin-bottom: 5px;
     text-decoration: none;
 
 }
+header::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
 section{
     background-color: #ffffff;
     border: 2px solid #dddddd;
     box-sizing: content-box;
-    width: 960px; 
+    width: 920px; 
     margin: auto;
     padding: 20px;
     
@@ -68,7 +73,7 @@ footer {
     text-align: bottom;
     color: #cccccc; 
     font-size: 15px;
-    padding-top: 30px;
+    padding-top: 10px;
     position: fixed;
     width: 100%;
     left:0px;
@@ -78,12 +83,13 @@ footer {
 
 .title {
     background-color:#4aaaa5;
+    color: #cccccc;
     width: 97%;
     padding: 10px;
     border: 1px solid #dddddd;
     border-radius: 4px;
     margin-top: 6px;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
 .headercontents {
     width: 960px;
@@ -92,12 +98,32 @@ footer {
 
 .container {
     clear: both;
-    width: 960px;
+    width: 920px;
     margin:auto;
 }
 .navbutton {
-    border-right: 1px solid #dddddd;}
-
-.entire-thing {
-    width: 650px;
+    border-right: 1px solid #dddddd;
+    color: #333333;
+    font-size: 20px;
   }
+a {
+    text-decoration: none;
+  }
+  
+.box {
+    height: 200px;
+    width: 240px;
+    background-color: #dddddd;
+    border: 1px solid #a0a0a0;
+    float: left;
+    margin: 20px;
+}
+.portfolio-title {
+    width: 100%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    position: relative;
+    padding: 1px 0px 1px 0px;
+    top: 125px;
+}
